@@ -20,3 +20,11 @@
 # 터미널 > pip install requests
 # 터미널 > pip install pandas==2.0.0
 # 터미널 > freeze > requirements.txt
+# --------------------------------------------------------------------------------------
+# print("\n# 실습 7-4-5 : 가상환경 명령어(mac 기준)")
+# 터미널 > mkdir my_app
+# 터미널 > cd my_app
+# 터미널 > python3 -m venv venv # 가상환경 생성
+# 터미널 > source venv/bin/activate # 가상환경 활성화
+# (venv) my_app % 로 터미널 앞에 표시됨
+# (venv) my_app % deactivate # 가상환경 비활성화
