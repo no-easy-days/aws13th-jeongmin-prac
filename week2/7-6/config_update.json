@@ -1,11 +1,16 @@
 {
     "app_name": "MyApp",
     "version": "1.0.0",
-    "debug": false,
+    "debug": "True",
     "database": {
         "host": "[localhost](http://localhost)",
         "port": 3306,
         "name": "mydb"
     },
-    "features": ["login", "dashboard", "settings"]
+    "features": [
+        "login",
+        "dashboard",
+        "settings",
+        "notifications"
+    ]
 }
