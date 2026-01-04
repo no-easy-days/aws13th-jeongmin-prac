@@ -28,3 +28,10 @@
 # 터미널 > source venv/bin/activate # 가상환경 활성화
 # (venv) my_app % 로 터미널 앞에 표시됨
 # (venv) my_app % deactivate # 가상환경 비활성화
+# --------------------------------------------------------------------------------------
+print("\n# 실습 7-4-6 : 실무 시나리오(mac 기준)")
+# 터미널 > mkdir weather_app
+# 터미널 > cd weather_app
+# 터미널 > python3 -m venv venv
+# 터미널 > python3 -m pip install requests python-dotenv
+# 터미널 > python3 -m pip freeze > requirments.txt
