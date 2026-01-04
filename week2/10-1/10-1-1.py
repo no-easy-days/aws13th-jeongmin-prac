@@ -10,7 +10,7 @@
  INSERT INTO students VALUES ('홍길동'); DROP TABLE students; --', 20) 이런식의 결과 값이 생성될 수 있음
 """
 
-# 플레이스홀더를 이용한 안전한 쿼리문
+""" 플레이스홀더를 이용한 안전한 쿼리문 >> 플레이스 홀더를 사용하면 특수문자도 \' \\ > 문자로 변환 하여 문자열로 취급 """
 # name = input("이름: ")
 # age = input("나이: ")
 # sql = "INSERT INTO students (name, age) VALUES (%s, %s)"
